@@ -27,8 +27,11 @@
 Запуск
 Клонуйте репозиторій (або завантажте архів):
 
-Bash
-git clone [посилання-на-ваш-репозиторій]
+## 🚀 Інструкція із запуску
+
+ **Клонуйте репозиторій:**
+   ```bash
+   git clone [https://github.com/surwiwdok17-boop/game-catalog.git](https://github.com/surwiwdok17-boop/game-catalog.git)
 Запуск через командний рядок:
 Перейдіть у папку з проєктом і виконайте:
 
