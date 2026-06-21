@@ -19,7 +19,7 @@ def print_games(games, title="КАТАЛОГ"):
         print(Fore.RED + "\n У каталозі пусто.")
         return
     
-    # Розрахунок ширини для гарної таблиці
+
     max_title = max([len(g['title']) for g in games] + [5]) + 2
     max_plat = max([len(g['platform']) for g in games] + [9]) + 2
     max_stat = max([len(g['status']) for g in games] + [6]) + 2
@@ -80,7 +80,7 @@ def sort_games():
 def menu():
     while True:
         print("\n=== МЕНЮ КАТАЛОГУ ===")
-        print(" 1. Додати гру\n 2. Показати всі\n 3. Фільтр за статусом\n 4. Сортувати за оцінкою\n 5. Статистика\n 6. Видалити гру\n 0. Вихід")
+        print(" 1. Додати гру\n 2. Показати всі ігри\n 3. Фільтр за статусом\n 4. Сортувати за оцінкою\n 5. Статистика\n 6. Видалити гру\n 0. Вихід")
         choice = input(" Вибір: ")
         
         if choice == "1": add_game()
