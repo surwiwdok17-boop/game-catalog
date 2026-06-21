@@ -16,5 +16,11 @@
     "platform": "PC,PlayStation",
     "status": "пройдено",
     "rating": 10.0
+  },
+  {
+    "title": "Days Gone",
+    "platform": "PC",
+    "status": "пройдено",
+    "rating": 10.0
   }
 ]
